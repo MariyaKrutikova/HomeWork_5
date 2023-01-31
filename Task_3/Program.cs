@@ -25,7 +25,7 @@ double[] GetArray(int dimantion)
     Random rnd = new Random();
     for (int i = 0; i < dimantion; i++)
     {
-        array[i] = rnd.NextDouble();
+        array[i] = rnd.NextDouble()*7;
     }
     return array;
 }
